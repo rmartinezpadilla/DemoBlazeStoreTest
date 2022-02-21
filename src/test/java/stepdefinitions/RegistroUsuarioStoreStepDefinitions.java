@@ -23,6 +23,7 @@ public class RegistroUsuarioStoreStepDefinitions {
     public void configuracionInicial(){
         ruben.can(BrowseTheWeb.with(hisBrowser));
 
+
     }
     @Dado("^que requiero ingresar a la pagina demoblaze$")
     public void queRequieroIngresarALaPaginaDemoblaze() {

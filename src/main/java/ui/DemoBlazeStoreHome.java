@@ -55,6 +55,14 @@ public class DemoBlazeStoreHome extends PageObject {
     public static final Target LINK_TELEFONOS = Target.the("link telefonos")
             .locatedBy("//div//a[contains(text(),'Phones')]");
 
+    public static final Target CATEGORIA = Target.the("categoria")
+            .locatedBy("//div//a[contains(text(),'{0}')]");
+
+    public  static  final Target PRECIO = Target.the("Precio")
+            .locatedBy("//table/tbody/tr[1]/td[3]");
+
+
+
 
 
 

@@ -8,7 +8,7 @@
     Dado que requiero ingresar a la pagina demoblaze
 
       Escenario: registrar usuario
-        Cuando se realiza el regristo en la pagina con usuario: ruben de jesus y contrasena: ruben123
+        Cuando se realiza el regristo en la pagina con usuario: testretoweb y contrasena: testretoweb
         Entonces se valida la creacion del usuario
 
 

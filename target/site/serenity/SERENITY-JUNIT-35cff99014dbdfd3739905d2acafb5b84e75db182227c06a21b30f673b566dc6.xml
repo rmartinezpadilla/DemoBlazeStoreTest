@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="iniciar sesion en store" skipped="0" tests="1" time="22.46" timestamp="2022-02-15 06:26:57"><testcase name="ingresar usuario"><failure message="&#10;Expected: &quot;Welcome ruben de jesus&quot;&#10;     but: was &quot;Welcome dioner&quot;" type="java.lang.AssertionError">
+Expected: "Welcome ruben de jesus"
+     but: was "Welcome dioner"</failure><system-err>
+Expected: "Welcome ruben de jesus"
+     but: was "Welcome dioner"&#13;
+stepdefinitions.IniciarSesionStoreStepDefinitions.seValidaLaBienvenidaAlUsuarioXxxx(IniciarSesionStoreStepDefinitions.java:33)&#13;
+✽.se valida la bienvenida al usuario: ruben de jesus(file:///C:/Users/RUBEN%20MARTINEZ/Documents/TEST_T_VOLVERS/PRUEBAS%20WEB/DemoBlazeStoreTest/src/test/resources/features/iniciar_sesion_Store.feature:14)&#13;
+</system-err></testcase></testsuite>
