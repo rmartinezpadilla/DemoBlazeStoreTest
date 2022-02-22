@@ -59,7 +59,7 @@ public class DemoBlazeStoreHome extends PageObject {
             .locatedBy("//div//a[contains(text(),'{0}')]");
 
     public  static  final Target PRECIO = Target.the("Precio")
-            .locatedBy("//table/tbody/tr[1]/td[3]");
+            .locatedBy("//div//h3[@class='panel-title']");
 
 
 

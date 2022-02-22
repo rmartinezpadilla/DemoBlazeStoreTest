@@ -3,9 +3,12 @@ package stepdefinitions;
 import io.cucumber.java.Before;
 import io.cucumber.java.es.*;
 import net.serenitybdd.screenplay.Actor;
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.annotations.Managed;
+import static org.hamcrest.Matchers.equalTo;
 import org.openqa.selenium.WebDriver;
+import questions.ElPrecio;
 import tasks.AgregaProducto;
 
 public class AgregarProductoStepDefinitions {
@@ -25,8 +28,10 @@ public class AgregarProductoStepDefinitions {
 
 
     }
-    @Entonces("puedo ver el total a pagar en el carrito de compra")
-    public void puedoVerElTotalAPagarEnElCarritoDeCompra() {
+    @Entonces("^puedo ver el (.*) a pagar en el carrito de compra$")
+    public void puedoVerElTotalAPagarEnElCarritoDeCompra(int precio) {
+        ruben.should(seeThat(ElPrecio.es(), equalTo(precio)));
+
 
     }
 

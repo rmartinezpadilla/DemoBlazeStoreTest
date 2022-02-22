@@ -45,8 +45,7 @@ public class AgregaProducto implements Task {
                 Click.on(BOTON_CART)
         );
 
-        VariablesGlobales.total = PRECIO.toString();
-        System.out.println(VariablesGlobales.total);
+
 
 
 

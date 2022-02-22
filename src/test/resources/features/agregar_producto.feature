@@ -9,10 +9,10 @@
       Dado que requiero ingresar a la pagina demoblaze
     Esquema del escenario: agregar producto al carrito
       Cuando agrego <producto> de la categoria <categoria>
-      Entonces puedo ver el total a pagar en el carrito de compra
+      Entonces puedo ver el <precio> a pagar en el carrito de compra
       Ejemplos:
-        |producto         | categoria  |
-        |Apple monitor 24 |Monitors    |
-        #|ASUS Full HD     |Monitors    |
-        #|Samsung galaxy s7|Phones      |
-        #|HTC One M9       |Phones      |
+        |producto         | categoria  |precio|
+        |Apple monitor 24 |Monitors    |400|
+       # |ASUS Full HD     |Monitors    |230|
+       # |Samsung galaxy s7|Phones      |800|
+       # |HTC One M9       |Phones      |700|
